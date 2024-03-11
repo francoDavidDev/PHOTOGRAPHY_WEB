@@ -1,6 +1,6 @@
 import React,{useContext, useState} from "react";
 // import images
-import WomanImg from "../img/home/woman.png";
+import WomanImg from "../img/home/woman.jpg";
 // import link
 import { Link } from "react-router-dom";
 // import motion
@@ -57,6 +57,7 @@ const Home = () => {
                 whileHover={{ scale: 1.1 }}
                 transition={transition1}
                 src={WomanImg}
+                width={700}
                 alt="woman img"
               />
             </motion.div>
